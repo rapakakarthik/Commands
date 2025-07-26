@@ -3,3 +3,5 @@ dpkg --list
 
 dpkg --list zip 
 -> To check the specfic pacakge is listed on linux 
+
+lsb_release -an
