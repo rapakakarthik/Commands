@@ -1,6 +1,10 @@
 1. apachectl configtest
 1. apachectl configtest
---> To check the apache virtual host configuration syntax is correct or not  
+To check the apache virtual host configuration syntax is correct or not  
+
+2. apache2ctl -M
+2. apachectl -M
+with this command we can see list of enabled modules on apache2 server  
 
 
 sudo apt update -y
