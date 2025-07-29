@@ -6,7 +6,7 @@ To check the apache virtual host configuration syntax is correct or not
 2. apachectl -M
 with this command we can see list of enabled modules on apache2 server  
 
-
+## Process of configuring the virtual host ##
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install apache2 -y
