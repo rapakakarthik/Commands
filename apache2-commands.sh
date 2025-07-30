@@ -28,3 +28,7 @@ sudo systemctl restart apache2
 
 sudo a2enmod headers
 sudo systemctl restart apache2
+
+as we missed apache permission shloud have to the path of apache2
+/var/www/qa-b2b-api
+this qa-b2b-api should have apache permissions - www-data:www-data
