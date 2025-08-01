@@ -18,4 +18,8 @@ git remote -v
 
 so here now remote origin repo is added and now we need to push the files to the remote repository
 
+next imp commands need to change the branch name with this command then only we can push the files to the remote repository
 
+git branch -M main
+
+git push -u origin main
