@@ -16,3 +16,16 @@ ssh -i linux_key.pem ubuntu@13.201.5.39
 
 # To chanage the hostname on server use this command
 sudo hostnamectl set-hostname <name>
+
+
+Create a directory with subfolders in one command:
+
+mkdir -p ~/projects/bash_learning/{scripts,backups,test}
+
+
+🔎 Explanation:
+mkdir → make directory
+-p → create parent folders if not exist
+{a,b,c} → create multiple subdirectories in one shot
+
+
